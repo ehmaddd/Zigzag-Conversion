@@ -1,10 +1,11 @@
 # Zigzag-Conversion
 
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
-
+<pre>
 P   A   H   N
 A P L S I I G
 Y   I   R
+</pre>
 
 And then read line by line: "PAHNAPLSIIGYIR"
 
@@ -21,11 +22,12 @@ Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
 
 **Explanation:**
+<pre>
 P     I    N
 A   L S  I G
 Y A   H R
 P     I
-
+</pre>
 **Example 3:**
 Input: s = "A", numRows = 1
 Output: "A"
